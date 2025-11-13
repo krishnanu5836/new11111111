@@ -1,0 +1,27 @@
+export const javascriptQuizData = [
+    { 
+        question: "Which keyword is used to define a variable in ES6 that cannot be reassigned?", 
+        options: ["var", "let", "const", "static"], 
+        answer: "const" 
+    },
+    { 
+        question: "What does the 'typeof' operator return for an array in JavaScript?", 
+        options: ["array", "object", "list", "undefined"], 
+        answer: "object" 
+    },
+    { 
+        question: "What is the correct syntax for an arrow function with one parameter?", 
+        options: ["(x) => {}", "x -> {}", "function(x) => {}", "x = () => {}"], 
+        answer: "(x) => {}" 
+    },
+    { 
+        question: "Which method is used to add an element to the end of an array?", 
+        options: ["shift()", "unshift()", "push()", "pop()"], 
+        answer: "push()" 
+    },
+    { 
+        question: "What will `2 + '2'` evaluate to in JavaScript?", 
+        options: ["4", "22", "NaN", "Error"], 
+        answer: "22" 
+    },
+];
